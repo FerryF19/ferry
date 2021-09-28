@@ -13,9 +13,7 @@ Catatan HTML & CSS
 - Rich text : Teks terformat. Format teks yang digunakan ketika kita menulis menggunakan Microsoft Word atau teks editor berbasis WYSIWYG (What You See Is What You Get).
 - Element : Sebuah komponen pada HTML yang ditandai dengan tag pembuka dan penutup.
 
-HTML
-
-accesskey
+(HTML, accesskey)
 
 Menentukan tombol shortcut untuk mengaktifkan/memfokuskan pada sebuah element.
 
@@ -250,13 +248,10 @@ perhatian khusus. Berikut contoh penggunaannya.
 Important text
 Gunakan elemen <strong> untuk menunjukan sebuah teks yang begitu penting (strong importance), serius, ataupun mendesak. Dalam arti teks tersebut harus dapat perhatian lebih 
 dari teks biasa lainnya.
-
 <p>Kesehatan merupakan hal yang penting, jaga pola makan yang teratur dan <strong>jangan sampai makan tengah
    malam!</strong></p>
-
 Standarnya pada browser sebuah teks yang diberi markup <strong> akan ditampilkan secara tebal. Dan ketika pengguna menggunakan pembaca layar (screen reader), suara yang 
-terdengar akan berbeda. Ini mengartikan bahwa teks tersebut penting tidak hanya sekedar tebal.
-20200619114537f8b876288310e434844a1df72202ea98.jpeg 
+terdengar akan berbeda. Ini mengartikan bahwa teks tersebut penting tidak hanya sekedar tebal. 
 
 
 Short quotations
@@ -265,31 +260,19 @@ di dalam baris (inline).
 
 <p>Sebelum pulang kerja, ia berkata kepadaku: <q>Maaf saya tidak bisa hadir dalam pertemuan nanti</q></p>
 
-
 Standarnya pada browser sebuah teks yang diberi markup <q> akan ditampilkan di dalam tanda kutip (Quotation marks).
-202006191147088a27b9e3b4e6109fbd24333e47d3c83e.jpeg
-
 
 Citation
 Selain sebuah atribut, <cite> juga merupakan sebuah elemen yang digunakan untuk sebuah rujukan pada sebuah dokumen, contohnya sebuah buku, majalah, artikel dan lainnya.
-
 <p>Informasi selengkapnya bisa Anda dapatkan di <cite><a href="https://dicoding.com">dicoding.com</a></cite>.</p>
-
 Standarnya pada browser sebuah teks yang diberi markup <cite> akan ditampilkan dengan garis miring (italic).
-20200619114757d2953d11afea469ca28408ed961c8f12.jpeg
-
 
 
 Defining terms
 Elemen <dfn> digunakan ketika mendefinisikan sebuah istilah (term). Elemen ini harus terletak pada elemen lain yang menaunginya. Contohnya pada sebuah elemen <p> atau elemen 
 <section>. Berikut contoh penggunaannya:
-
 <p><dfn>Website</dfn> merupakan halaman yang menampilkan informasi melalui teks atau gambar. Website dapat diakses melalui internet dengan menggunakan browser.</p>
-
 Standar pada browser yakni sebuah teks yang diberi markup <dfn> akan ditampilkan dengan garis miring (italic).
-
-
-
 
 Subscript dan Superscript
 Subscript <sub> dan superscript <sup> merupakan elemen yang dapat membuat teks yang ditampilkan nampak kecil, dengan posisi di bawah (sub) atau di atas (sup) dari teks 
@@ -299,11 +282,6 @@ biasanya. Elemen ini digunakan untuk menunjukan sebuah rumus kimia ataupun matem
 C<sub>12</sub>H<sub>22</sub>O<sub>11</sub>.</p>
  
 <p>Salah satu persamaan paling umum dalam semua fisika adalah E=MC<sup>2</sup></p>
-
-Jika kita lihat pada browser, tampilan akan tampak seperti ini:
-20200619115528d60c86b36ee29b8964700e8c99816856.jpeg
-
-
 
 Highlighted text
 Untuk menandai atau menyorot sebuah teks kita bisa menggunakan elemen <mark>. Elemen ini digunakan ketika terdapat sebuah teks yang memiliki peran penting, biasanya teks 
@@ -317,11 +295,7 @@ tersebut merupakan bagian yang paling relevan atau penting dalam sebuah konteks 
    ke senjata pamungkas Kekaisaran, STAR DEATH, stasiun ruang angkasa
    berlapis baja dengan kekuatan yang cukup untuk menghancurkan seluruh planet.
 </p>
-
 Standarnya pada browser teks yang diberi markup <mark> akan ditampilkan dengan background kuning dan teks hitam.
-202006191159200762944f2098e172dd4cbd4db1ab3fc0.jpeg
-
-
 
 Line Break
 Terkadang kita mungkin perlu menambahkan sebuah baris baru pada sebuah baris teks (termasuk di dalam paragraf), tetapi kita mengetahui bahwa browser akan mengabaikan sebuah 
