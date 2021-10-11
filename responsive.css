@@ -1,5 +1,10 @@
 @media all and (max-width: 1000px) {
+   .kotak-form{
+    float: right;
+  }
   
+  .logo-facebook{
+    float: left;
 }
 
 /* Untuk Smartphone */
